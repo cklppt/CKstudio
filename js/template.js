@@ -159,7 +159,7 @@
 			{latLng: [35.689487, 139.691706], name: 'Tokyo'},
 			{latLng: [35.011636, 135.768029], name: 'Kyoto'},
 			{latLng: [49.815273, 6.129583], name: 'Luxembourg'},
-			{latLng: [37.983917, 23.72936], name: 'Athen'},
+			{latLng: [37.983917, 23.72936], name: 'Athens'},
 			{latLng: [39.721391, 21.633613], name: 'Meteora'},
 			{latLng: [36.393156, 25.461509], name: 'Santorini'},
 			{latLng: [51.507351, -0.127758], name: 'London'},
@@ -225,7 +225,13 @@
 			{latLng: [51.050409, 13.737262], name: 'Dresden'},
 			{latLng: [53.551085, 9.993682], name: 'Hamburgh'},
 			{latLng: [31.230416, 121.473701], name: 'Shanghai'},
-			{latLng: [24.880095, 102.832892], name: 'Kunming'}
+			{latLng: [24.880095, 102.832892], name: 'Kunming'},
+			{latLng: [52.011577, 4.357068], name: 'Delft'},
+			{latLng: [57.477773, -4.224721], name: 'Inverness'},
+			{latLng: [56.682560, -5.102271], name: 'Glencoe'},
+			{latLng: [57.412474, -6.196023], name: 'Portree'},
+			{latLng: [57.535926, -6.226273], name: 'Isle of sky'},
+			{latLng: [57.423461, -6.788262], name: 'Neist Point'}
 			];
 
 		$('#world-map').vectorMap({

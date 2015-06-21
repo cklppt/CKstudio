@@ -8,6 +8,12 @@ License: Creative Commons Attribution 3.0 License (https://creativecommons.org/l
 File Description: Place here your custom CSS styles
 */
 
+/*text weight*/
+.text-bold {
+    font-size: 120%;
+    font-weight: 300;
+}
+
 /*Map*/
 #world-map {
     width: 100%;
