@@ -13,3 +13,40 @@ File Description: Place here your custom CSS styles
 	width: 80%;	
 }
 
+/*3D roll effect on navbar buttons*/
+.roll {
+    display: inline-block;
+    overflow: hidden;
+    perspective: 400px;
+    perspective-origin: 50% 50%;
+    position: relative;
+    transform-style: preserve-3d;
+    vertical-align: top;
+    z-index: 200;
+}
+.roll span {
+    display: block;
+    overflow: hidden;
+    padding: 0 2px;
+    pointer-events: none;
+    position: relative;
+    transform-origin: 50% 0 0;
+    transform-style: preserve-3d;
+    transition: all 400ms ease 0s;
+}
+a.roll:hover span {
+    overflow: visible;
+    transform: translate3d(0px, 0px, -30px) rotateX(90deg);
+}
+.roll span::after {
+    background: #fff none repeat scroll 0 0;
+    color: #424b51;
+    content: attr(data-title);
+    display: block;
+    left: 0;
+    padding: 0 2px;
+    position: absolute;
+    top: 1px;
+    transform: translate3d(0px, 105%, 0px) rotateX(-90deg);
+    transform-origin: 50% 0 0;
+}
