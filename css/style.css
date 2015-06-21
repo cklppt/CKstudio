@@ -67,6 +67,11 @@ h4 span {
 .text-colored {
 	color: #55acee;
 }
+
+.text-white {
+	color: white;
+}
+
 a {
 	color: #55acee;
 }

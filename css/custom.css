@@ -8,6 +8,12 @@ License: Creative Commons Attribution 3.0 License (https://creativecommons.org/l
 File Description: Place here your custom CSS styles
 */
 
+/*Map*/
+#world-map {
+    width: 100%;
+    height: 800px;
+}
+
 /*Banner BG order*/
 .bg-fixed {
 padding-top: 0px;
