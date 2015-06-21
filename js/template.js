@@ -211,10 +211,21 @@
 			{latLng: [22.396428, 114.109497], name: 'Hong Kong'},
 			{latLng: [50.937531, 6.960279], name: 'Cologne'},
 			{latLng: [51.227741, 6.773456], name: 'Dusseldorf'},
+			{latLng: [47.558333, 10.741667], name: 'Hohenschwangau'},
+			{latLng: [43.212161, 2.353663], name: 'Carcassonne'},
+			{latLng: [39.862832, -4.027323], name: 'Toledo'},
+			{latLng: [51.209348, 3.2247], name: 'Bruges'},
 			{latLng: [55.953252, -3.188267], name: 'Edinburgh'},
-			{latLng: [34.693738, 135.502165], name: 'Osaka'},			
+			{latLng: [34.693738, 135.502165], name: 'Osaka'},
 			{latLng: [36.719903, 139.698216], name: 'Nikko'},
-			{latLng: [35.232355, 139.106937], name: 'Hakone'}
+			{latLng: [35.232355, 139.106937], name: 'Hakone'},
+			{latLng: [35.513830, 24.018037], name: 'Chania'},
+			{latLng: [45.465422, 9.185924], name: 'Milano'},
+			{latLng: [47.368650, 8.539183], name: 'Zurich'},
+			{latLng: [51.050409, 13.737262], name: 'Dresden'},
+			{latLng: [53.551085, 9.993682], name: 'Hamburgh'},
+			{latLng: [31.230416, 121.473701], name: 'Shanghai'},
+			{latLng: [24.880095, 102.832892], name: 'Kunming'}
 			];
 
 		$('#world-map').vectorMap({
