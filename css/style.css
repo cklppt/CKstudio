@@ -123,7 +123,7 @@ blockquote {
 .header {
 	color: #ffffff;
 	background-color: rgba(0, 0, 0, 0.10);
-	padding: 20px 0;
+	padding: 15px 0;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
@@ -159,7 +159,7 @@ blockquote {
 	z-index: 2;
 }
 .subfooter {
-	background-color: #fafafa;
+/*	background-color: #fafafa;*/
 	border-top: 1px solid #f3f3f3;
 	border-bottom: 1px solid #f3f3f3;
 	padding: 40px 0;
@@ -487,10 +487,10 @@ textarea {
 	background-color: transparent;
 	color: #55acee;
 }
-.main-navigation .navbar-default .navbar-nav > li > a:hover,
+/*.main-navigation .navbar-default .navbar-nav > li > a:hover,
 .main-navigation .navbar-default .navbar-nav > li.active > a:hover {
 	color: #55acee;
-}
+}*/
 @media (min-width:768px) {
 	.main-navigation .navbar-default .navbar-nav > li > a {
 		padding-top: 30px;
@@ -516,6 +516,7 @@ textarea {
 		position: absolute;
 	}
 }
+
 
 /* Fixed Header
 ----------------------------------------------------------------------------- */
