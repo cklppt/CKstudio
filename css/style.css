@@ -117,7 +117,7 @@ blockquote {
 .header {
 	color: #ffffff;
 	background-color: rgba(0, 0, 0, 0.10);
-	padding: 10px 0;
+	padding: 20px 0;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
@@ -518,8 +518,8 @@ textarea {
 	font-size: 24px;
 }
 .fixed-header-on .logo {
-	-webkit-transform: scale(0.8);
-	transform: scale(0.8);
+	-webkit-transform: scale(0.7);
+	transform: scale(0.7);
 	margin-top: 0;
 	margin-bottom: 0;
 }
