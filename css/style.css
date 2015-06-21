@@ -160,12 +160,16 @@ blockquote {
 	padding: 40px 0;
 }
 .section {
-	background-color: #ffffff;
+/*	background-color: #ffffff;*/
 	padding: 80px 0;
 }
 
 /* Backgrounds
 ----------------------------------------------------------------------------- */
+.white-bg {
+	background-color: #ffffff;	
+}
+
 .default-bg {
 	background-color: #222222;
 	color: #ffffff;
@@ -234,9 +238,7 @@ blockquote {
 	z-index: 3;
 	position: relative;
 }
-.bg-image-1 {
-	background: url("../images/bg-image-1.jpg") 50% 0px no-repeat;
-}
+
 .bg-image-2 {
 	background: url("../images/bg-image-2.jpg") 50% 0px no-repeat;
 }
