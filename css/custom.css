@@ -8,6 +8,11 @@ License: Creative Commons Attribution 3.0 License (https://creativecommons.org/l
 File Description: Place here your custom CSS styles
 */
 
+/*fix*/
+.media-body {
+    width: 100%;
+}
+
 .section span{
     color: #339BEB;
 }
