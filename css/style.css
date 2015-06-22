@@ -308,11 +308,12 @@ blockquote {
 .btn {
 	padding: 8px 15px;
 	font-size: 14px;
-	line-height: 1.42857143;
+	/*line-height: 1.42857143;*/
 	min-width: 160px;
 	min-height: 60px;
 	text-align: center;
 	border-radius: 0;
+	/*warp line*/
 	white-space: normal;
 	/*text-transform: uppercase;*/
 	-webkit-transition: all 0.2s ease-in-out;
