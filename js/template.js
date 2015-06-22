@@ -18,11 +18,10 @@
 			, "images/banner/banner4.jpg"
 			, "images/banner/banner5.jpg"
 			, "images/banner/banner6.jpg"
-			, "images/banner/banner7.jpg"
-			, "images/banner/banner8.jpg"
-			, "images/banner/banner9.jpg"
-			, "images/banner/banner10.jpg"
-			, "images/banner/banner11.jpg"
+			// , "images/banner/banner7.jpg"
+			// , "images/banner/banner8.jpg"
+			// , "images/banner/banner9.jpg"
+			// , "images/banner/banner10.jpg"
 			], {duration: 3000, fade: 750});
 		
 		// Fixed header

@@ -8,6 +8,38 @@ License: Creative Commons Attribution 3.0 License (https://creativecommons.org/l
 File Description: Place here your custom CSS styles
 */
 
+.section span{
+    color: #339BEB;
+}
+
+.item-title {
+    color: #759C8A;
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 14px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.item-caption {
+    color: #777;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.item-caption span {
+    color: #777;
+}
+
+.item-add {
+    color: #777;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 200;
+}
+
 /*text weight*/
 .text-bold {
     font-size: 120%;
