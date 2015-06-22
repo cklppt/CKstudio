@@ -169,6 +169,11 @@ blockquote {
 	padding: 80px 0;
 }
 
+/*span as blue*/
+.section span{
+    color: #339BEB;
+}
+
 /* Backgrounds
 ----------------------------------------------------------------------------- */
 .white-bg {
@@ -681,11 +686,11 @@ textarea {
 }
 .overlay {
 	position: absolute;
-	top: 0;
-	bottom: -1px;
-	left: 0;
-	right: -1px;
-	background-color: rgba(85, 172, 238, 0.9);
+	top: 20%;
+	bottom: 20%;
+	left: 20%;
+	right: 20%;
+	background-color: rgba(85, 172, 238, 0.6);
 	cursor: pointer;
 	overflow: hidden;
 	opacity: 0;

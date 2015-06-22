@@ -8,13 +8,25 @@ License: Creative Commons Attribution 3.0 License (https://creativecommons.org/l
 File Description: Place here your custom CSS styles
 */
 
-/*fix*/
-.media-body {
+
+/*image overlay scale*/
+.image-box .overlay-container img {
+    height: auto;
+    transform: scale(1, 1);
+    transition-duration: 2000ms;
+    transition-timing-function: ease-out;
     width: 100%;
 }
+.image-box:hover .overlay-container img {
+    position: relative;
+    transform: scale(1.15, 1.15);
+    transition-duration: 1500ms;
+    transition-timing-function: ease-out;
+}
 
-.section span{
-    color: #339BEB;
+/*fix right align of Skill section*/
+.media-body {
+    width: 100%;
 }
 
 .item-title {
