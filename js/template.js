@@ -17,7 +17,7 @@ File Description: Initializations of plugins
 			, "images/banner/banner4.jpg"
 			, "images/banner/banner5.jpg"
 			, "images/banner/banner6.jpg"
-			// , "images/banner/banner7.jpg"
+			, "images/banner/banner7.jpg"
 			// , "images/banner/banner8.jpg"
 			// , "images/banner/banner9.jpg"
 			// , "images/banner/banner10.jpg"
