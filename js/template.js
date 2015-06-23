@@ -154,20 +154,22 @@ File Description: Initializations of plugins
 					];
 		cities = [
 			{latLng: [50.850340, 4.35171], name: 'Bruxelles'},
-			{latLng: [35.689487, 139.691706], name: 'Tokyo'},
 			{latLng: [35.011636, 135.768029], name: 'Kyoto'},
+			{latLng: [35.689487, 139.691706], name: 'Tokyo'},
+			{latLng: [34.693738, 135.502165], name: 'Osaka'},
 			{latLng: [49.815273, 6.129583], name: 'Luxembourg'},
 			{latLng: [37.983917, 23.72936], name: 'Athens'},
-			{latLng: [39.721391, 21.633613], name: 'Meteora'},
 			{latLng: [36.393156, 25.461509], name: 'Santorini'},
-			{latLng: [51.507351, -0.127758], name: 'London'},
+			{latLng: [39.721391, 21.633613], name: 'Meteora'},
 			{latLng: [52.205337, 0.121817], name: 'Cambridge'},
+			{latLng: [51.507351, -0.127758], name: 'London'},
+			{latLng: [55.953252, -3.188267], name: 'Edinburgh'},			
 			{latLng: [47.497912, 19.040235], name: 'Budapest'},
 			{latLng: [59.436961, 24.753575], name: 'Tallinn'},
+			{latLng: [41.385064, 2.173403], name: 'Barcelona'},
+			{latLng: [40.070392, -2.137416], name: 'Cuenca'},
 			{latLng: [39.469907, -0.376288], name: 'Valencia'},
 			{latLng: [40.416775, -3.70379], name: 'Madrid'},
-			{latLng: [40.070392, -2.137416], name: 'Cuenca'},
-			{latLng: [41.385064, 2.173403], name: 'Barcelona'},
 			{latLng: [3.139003, 101.686855], name: 'Kuala Lumpur'},
 			{latLng: [48.856614, 2.352222], name: 'Paris'},
 			{latLng: [45.764043, 4.835659], name: 'Lyon'},
@@ -183,13 +185,16 @@ File Description: Initializations of plugins
 			{latLng: [25.606486, 100.267638], name: 'Dali'},
 			{latLng: [29.714748, 118.337621], name: 'Huangshan'},
 			{latLng: [30.274085, 120.15507], name: 'Hangzhou'},
-			{latLng: [27.829743, 99.700836], name: 'Shangrila'},
+			{latLng: [27.829743, 99.700836], name: 'Shangri-La'},
 			{latLng: [50.075538, 14.4378], name: 'Praha'},
 			{latLng: [48.812735, 14.317466], name: 'Cesky Krumlov'},
 			{latLng: [59.329323, 18.068581], name: 'Stockholm'},
-			{latLng: [50.737430, 7.098207], name: 'Bonn'},
 			{latLng: [50.775346, 6.083887], name: 'Aachen'},
+			{latLng: [50.737430, 7.098207], name: 'Bonn'},
+			{latLng: [50.937531, 6.960279], name: 'Cologne'},
+			{latLng: [51.227741, 6.773456], name: 'Dusseldorf'},
 			{latLng: [48.135125, 11.581981], name: 'Munich'},
+			{latLng: [47.558333, 10.741667], name: 'Hohenschwangau'},
 			{latLng: [48.208174, 16.373819], name: 'Wien'},
 			{latLng: [47.809490, 13.05501], name: 'Salzburg'},
 			{latLng: [37.774929, -122.419416], name: 'San Francisco'},
@@ -207,14 +212,9 @@ File Description: Initializations of plugins
 			{latLng: [41.902916, 12.453389], name: 'Vatican City'},
 			{latLng: [1.352083, 103.819836], name: 'Singapore'},
 			{latLng: [22.396428, 114.109497], name: 'Hong Kong'},
-			{latLng: [50.937531, 6.960279], name: 'Cologne'},
-			{latLng: [51.227741, 6.773456], name: 'Dusseldorf'},
-			{latLng: [47.558333, 10.741667], name: 'Hohenschwangau'},
 			{latLng: [43.212161, 2.353663], name: 'Carcassonne'},
 			{latLng: [39.862832, -4.027323], name: 'Toledo'},
 			{latLng: [51.209348, 3.2247], name: 'Bruges'},
-			{latLng: [55.953252, -3.188267], name: 'Edinburgh'},
-			{latLng: [34.693738, 135.502165], name: 'Osaka'},
 			{latLng: [36.719903, 139.698216], name: 'Nikko'},
 			{latLng: [35.232355, 139.106937], name: 'Hakone'},
 			{latLng: [35.513830, 24.018037], name: 'Chania'},
@@ -225,11 +225,17 @@ File Description: Initializations of plugins
 			{latLng: [31.230416, 121.473701], name: 'Shanghai'},
 			{latLng: [24.880095, 102.832892], name: 'Kunming'},
 			{latLng: [52.011577, 4.357068], name: 'Delft'},
+			{latLng: [57.535926, -6.226273], name: 'Isle of sky'},
 			{latLng: [57.477773, -4.224721], name: 'Inverness'},
 			{latLng: [56.682560, -5.102271], name: 'Glencoe'},
 			{latLng: [57.412474, -6.196023], name: 'Portree'},
-			{latLng: [57.535926, -6.226273], name: 'Isle of sky'},
-			{latLng: [57.423461, -6.788262], name: 'Neist Point'}
+			{latLng: [57.423461, -6.788262], name: 'Neist Point'},
+			{latLng: [-34.445165, 116.03404], name: 'Pemberton'},
+			{latLng: [-33.578822, 115.827978], name: 'Donnybrook'},
+			{latLng: [-33.327069, 115.639174], name: 'Bunbury'},
+			{latLng: [-38.261530, 175.114545], name: 'Waitomo'},
+			{latLng: [35.242225, 139.602687], name: 'Kamakura'}
+			//{latLng: [], name: ''}
 			];
 
 		$('#world-map').vectorMap({
@@ -252,7 +258,7 @@ File Description: Initializations of plugins
 			zoomOnScroll: false,
 			backgroundColor: 'rgba(0, 0, 0, 0)',
 			selectedRegions : countries,
-			markers: cities
+			markers: cities.reverse()
 		});
 
 	}); // End document ready
