@@ -19,6 +19,7 @@ Fonts
 
 Resources
 ------------------------------------------------------
+- jVectorMap - http://jvectormap.com/
 - Bootstrap Framework by @mdo and @fat - http://getbootstrap.com/
 - jQuery - https://jquery.org/
 - jQuery Appear - by bas2k - https://github.com/bas2k/jquery.appear/
