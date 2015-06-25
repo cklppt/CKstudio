@@ -5,6 +5,19 @@ Author:Kuan-Lin Chiu
 File Description: custom CSS styles
 */
 
+/*Fix the bootstap button change color when stay focus*/
+.image-box .btn-default:focus,
+.image-box .btn-default.focus,
+.image-box .btn-default:active,
+.image-box .btn-default.active {
+    background-color: white;
+}
+
+.btn-default:hover {
+    color: #ffffff;
+    background-color: #339BEB;
+    border-color: #339BEB;
+}
 
 /*image overlay scale*/
 .image-box .overlay-container img {

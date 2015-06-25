@@ -326,15 +326,11 @@ blockquote {
 	-ms-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
+
 }
 .btn-default {
 	color: #55acee;
 	border: 1px solid #cccccc;
-}
-.btn-default:hover {
-	color: #ffffff;
-	background-color: #339BEB;
-	border-color: #339BEB;
 }
 
 /* Collapse
@@ -456,6 +452,15 @@ textarea {
 	text-shadow: none;
 	filter: alpha(opacity=100);
 	opacity: 1;
+}
+
+/* Y align middle */
+.modal-dialog {
+	position: relative;
+	top: 50%;
+	-webkit-transform : translateY(-50%) !important; 
+	-ms-transform : translateY(-50%) !important;
+	transform : translateY(-50%) !important;
 }
 
 /* Large devices (Large desktops 1200px and up) */
