@@ -119,13 +119,13 @@ File Description: Initializations of plugins
 			});
 		};
 
-		//Modal
-		//-----------------------------------------------
-		if($(".modal").length>0) {
-			$(".modal").each(function() {
-				$(".modal").prependTo( "body" );
-			});
-		}
+		// //Modal
+		// //-----------------------------------------------
+		// if($(".modal").length>0) {
+		// 	$(".modal").each(function() {
+		// 		$(".modal").prependTo( "body" );
+		// 	});
+		// }
 
 
 		// Map
