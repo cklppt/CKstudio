@@ -9,6 +9,13 @@ File Description: Initializations of plugins
 (function($){
 	$(document).ready(function(){
 	
+		// Load portfolio
+		$('.image-box a[data-target]').each( function(){
+		    var project = $(this).attr('data-target').substr(1);
+		    $('#'+project).load('./htmls/portfolio/'+project+'.html .modal-dialog');
+		});
+
+
 		$(".banner-image").backstretch([
 			"images/banner/banner.jpg"
 			, "images/banner/banner1.jpg"

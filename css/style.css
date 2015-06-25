@@ -588,10 +588,16 @@ textarea {
 	font-size: 12px;
 }
 
-/* Testimonials
+/* countrys
 ---------------------------------- */
-.testimonial .media-left {
+.country .media-left {
 	width: 60px;
+}
+.country .media-left img {
+	width: 90px;
+	height: auto;
+	filter: invert(100%);
+	margin: 10px 10px 0 10px;
 }
 
 /* Social Links
