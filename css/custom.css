@@ -99,9 +99,21 @@ File Description: custom CSS styles
     transform : translateY(-50%) !important;
 }
 
+/* Y align img hack*/
+.vertical-helper {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.overlay-container img {
+    vertical-align: middle;
+    display: inline-block;
+}
+
 /*image overlay scale*/
 .image-box .overlay-container img {
-    height: auto;
+    height: 100%;
     transform: scale(1, 1);
     transition-duration: 2000ms;
     transition-timing-function: ease-out;
