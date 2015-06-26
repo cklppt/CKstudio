@@ -5,6 +5,12 @@ Author:Kuan-Lin Chiu
 File Description: custom CSS styles
 */
 
+/* credits text */
+.small {
+    font-size: 9px;
+    font-weight: 300;
+}
+
 /* thumbnail stack*/
 
 .thumbnail-stack {
@@ -37,17 +43,17 @@ File Description: custom CSS styles
 .thumbnail-stack:hover .photo1, .thumbnail-stack:focus .photo1 {
     transform: rotate(-6deg) translate(-100px, -50px) scale(1.1);
 }
+/* third image animation properties */
+.thumbnail-stack:hover .photo2, .thumbnail-stack:focus .photo3 {
+    transform: rotate(-3deg) translate(-50px, -100px) scale(1.1);
+}
 /* second image animation properties */
-.thumbnail-stack:hover .photo2, .thumbnail-stack:focus .photo2 {
+.thumbnail-stack:hover .photo3, .thumbnail-stack:focus .photo2 {
     ms-transform: rotate(0deg) translate(0, -150px) scale(1.1);
 }
 /* third image animation properties */
-.thumbnail-stack:hover .photo3, .thumbnail-stack:focus .photo3 {
-    transform: rotate(6deg) translate(100px, -50px) scale(1.1);
-}
-/* third image animation properties */
 .thumbnail-stack:hover .photo4, .thumbnail-stack:focus .photo3 {
-    transform: rotate(-3deg) translate(-50px, -100px) scale(1.1);
+    transform: rotate(6deg) translate(100px, -50px) scale(1.1);
 }
 /* third image animation properties */
 .thumbnail-stack:hover .photo5, .thumbnail-stack:focus .photo3 {
