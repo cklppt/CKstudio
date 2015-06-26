@@ -5,6 +5,71 @@ Author:Kuan-Lin Chiu
 File Description: custom CSS styles
 */
 
+/* thumbnail stack*/
+
+.thumbnail-stack {
+  position: relative;
+  z-index: 5;
+  width: 100%;
+  height: 350px;
+  vertical-align: middle;
+  display:block; 
+}
+
+/* the images */
+.thumbnail-stack img { 
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border: 5px solid #f3f3f3;
+  box-shadow: 1px 1px 2px #666;
+  width: 400px;
+  margin-left: -200px;
+  height: auto;
+  display: block;
+  transition: all .3s ease-in-out;
+  -webkit-transform : translateY(-50%); 
+  -ms-transform : translateY(-50%);
+  transform : translateY(-50%);
+    
+}
+/* first image animation properties */
+.thumbnail-stack:hover .photo1, .thumbnail-stack:focus .photo1 {
+    transform: rotate(-6deg) translate(-100px, -50px) scale(1.1);
+}
+/* second image animation properties */
+.thumbnail-stack:hover .photo2, .thumbnail-stack:focus .photo2 {
+    ms-transform: rotate(0deg) translate(0, -150px) scale(1.1);
+}
+/* third image animation properties */
+.thumbnail-stack:hover .photo3, .thumbnail-stack:focus .photo3 {
+    transform: rotate(6deg) translate(100px, -50px) scale(1.1);
+}
+/* third image animation properties */
+.thumbnail-stack:hover .photo4, .thumbnail-stack:focus .photo3 {
+    transform: rotate(-3deg) translate(-50px, -100px) scale(1.1);
+}
+/* third image animation properties */
+.thumbnail-stack:hover .photo5, .thumbnail-stack:focus .photo3 {
+    transform: rotate(3deg) translate(50px, -100px) scale(1.1);
+}
+
+
+/* Fixed YT video 100% width with missing height */
+.yt-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0; /* padding to be space as container*/
+}
+.yt-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 /*Fix the bootstap button change color when stay focus*/
 .image-box .btn-default:focus,
 .image-box .btn-default.focus,
@@ -113,9 +178,9 @@ File Description: custom CSS styles
 
 /*Banner BG order*/
 .bg-fixed {
-padding-top: 0px;
-position: fixed;
-z-index: -1;
+    padding-top: 0px;
+    position: fixed;
+    z-index: -1;
 }
 
 /*Smaller logo*/

@@ -15,7 +15,9 @@ File Description: Initializations of plugins
 		    $('#'+project).load('./htmls/portfolio/'+project+'.html .modal-dialog');
 		});
 
+		$(".fancybox").fancybox();
 
+		// BG slidershow
 		$(".banner-image").backstretch([
 			"images/banner/banner.jpg"
 			, "images/banner/banner1.jpg"
@@ -119,8 +121,8 @@ File Description: Initializations of plugins
 			});
 		};
 
-		// //Modal
-		// //-----------------------------------------------
+		//Modal
+		//-----------------------------------------------
 		// if($(".modal").length>0) {
 		// 	$(".modal").each(function() {
 		// 		$(".modal").prependTo( "body" );
