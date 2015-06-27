@@ -696,7 +696,7 @@ textarea {
 .overlay-container {
 	position: relative;
 	overflow: hidden;
-	height: 175px;
+/*	height: 175px;*/
 }
 .overlay {
 	position: absolute;

@@ -13,6 +13,31 @@ File Description: custom CSS styles
 
 /* thumbnail stack*/
 
+.thumbnail-stack-sm {
+  position: relative;
+  z-index: 5;
+  width: 100%;
+  height: 250px;
+  vertical-align: middle;
+  display:block; 
+}
+/* the images */
+.thumbnail-stack-sm img { 
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border: 5px solid #f3f3f3;
+  box-shadow: 1px 1px 2px #666;
+  width: 200px;
+  margin-left: -100px;
+  height: auto;
+  display: block;
+  transition: all .3s ease-in-out;
+  -webkit-transform : translateY(-50%); 
+  -ms-transform : translateY(-50%);
+  transform : translateY(-50%);
+}
+
 .thumbnail-stack {
   position: relative;
   z-index: 5;
@@ -37,26 +62,31 @@ File Description: custom CSS styles
   -webkit-transform : translateY(-50%); 
   -ms-transform : translateY(-50%);
   transform : translateY(-50%);
-    
 }
+
 /* first image animation properties */
-.thumbnail-stack:hover .photo1, .thumbnail-stack:focus .photo1 {
+.thumbnail-stack:hover .photo1, .thumbnail-stack:focus .photo1,
+.thumbnail-stack-sm:hover .photo1, .thumbnail-stack-sm:focus .photo1 {
     transform: rotate(-6deg) translate(-100px, -100px) scale(1.1);
 }
 /* third image animation properties */
-.thumbnail-stack:hover .photo2, .thumbnail-stack:focus .photo2 {
+.thumbnail-stack:hover .photo2, .thumbnail-stack:focus .photo2,
+.thumbnail-stack-sm:hover .photo2, .thumbnail-stack-sm:focus .photo2 {
     transform: rotate(-3deg) translate(-50px, -150px) scale(1.1);
 }
 /* second image animation properties */
-.thumbnail-stack:hover .photo3, .thumbnail-stack:focus .photo3 {
+.thumbnail-stack:hover .photo3, .thumbnail-stack:focus .photo3,
+.thumbnail-stack-sm:hover .photo3, .thumbnail-stack-sm:focus .photo3 {
     transform: rotate(0deg) translate(0, -180px) scale(1.1);
 }
 /* third image animation properties */
-.thumbnail-stack:hover .photo4, .thumbnail-stack:focus .photo4 {
+.thumbnail-stack:hover .photo4, .thumbnail-stack:focus .photo4,
+.thumbnail-stack-sm:hover .photo4, .thumbnail-stack-sm:focus .photo4 {
     transform: rotate(6deg) translate(100px, -100px) scale(1.1);
 }
 /* third image animation properties */
-.thumbnail-stack:hover .photo5, .thumbnail-stack:focus .photo5 {
+.thumbnail-stack:hover .photo5, .thumbnail-stack:focus .photo5,
+.thumbnail-stack-sm:hover .photo5, .thumbnail-stack-sm:focus .photo5 {
     transform: rotate(3deg) translate(50px, -150px) scale(1.1);
 }
 
