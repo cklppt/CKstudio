@@ -795,36 +795,22 @@
 		<!-- Appear javascript -->
 		<script type="text/javascript" src="plugins/jquery.appear.js"></script>
 
+		<!-- WorldMap -->
+		<script type="text/javascript" src="plugins/jquery-jvectormap-2.0.2.min.js"></script>
+		<script type="text/javascript" src="plugins/jquery-jvectormap-world-mill-en.js"></script>
+
+		<!-- img viewer -->
+		<script type="text/javascript" src="plugins/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+
 		<!-- Initialization of Plugins -->
 		<script type="text/javascript" src="js/template.js"></script>
 
 		<script type="text/javascript">
-
 		function downloadJSAtOnload() {
-			// world map
 			var element = document.createElement("script");
-			element.type = "text/javascript";
-			element.src = "plugins/jquery-jvectormap-2.0.2.min.js";
-			document.body.appendChild(element);
-
-			element = document.createElement("script");
-			element.type = "text/javascript";
-			element.src = "plugins/jquery-jvectormap-world-mill-en.js";
-			document.body.appendChild(element);
-
-			// img viewer
-			element = document.createElement("script");
-			element.type = "text/javascript";
-			element.src = "plugins/fancybox/jquery.fancybox.pack.js?v=2.1.5";
-			document.body.appendChild(element);
-
-			// custom loading
-			element = document.createElement("script");
-			element.type = "text/javascript";
 			element.src = "js/after-load.js";
 			document.body.appendChild(element);
 		}
-
 		if (window.addEventListener)
 			window.addEventListener("load", downloadJSAtOnload, false);
 		else if (window.attachEvent)
