@@ -124,7 +124,7 @@ File Description: custom CSS styles
 /* Y align middle */
 .modal-dialog {
     position: relative;
-    top: 150px;
+    top: 100px;
     z-index: 6;
 }
 
