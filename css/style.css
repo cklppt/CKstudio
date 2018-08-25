@@ -596,10 +596,11 @@ textarea {
 /* countrys
 ---------------------------------- */
 .country .media-left {
-	width: 60px;
+	width: 20%;
+	padding-right: 20px;
 }
 .country .media-left img {
-	width: 90px;
+	width: 200px;
 	height: auto;
 	filter: invert(100%);
 	margin: 10px 10px 0 10px;

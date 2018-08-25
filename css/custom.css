@@ -160,6 +160,10 @@ File Description: custom CSS styles
     width: 100%;
 }
 
+.country .media-body {
+    width: 80%;
+}
+
 .item-title {
     color: #759C8A;
     border-bottom: 1px solid #CCC;
