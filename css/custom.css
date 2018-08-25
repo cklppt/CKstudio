@@ -232,7 +232,8 @@ File Description: custom CSS styles
 
 /*Smaller logo*/
 #logo {
-	width: 80%;
+    max-height: 75px;
+	/* width: 80%; */
     min-width: 100px;
 }
 
