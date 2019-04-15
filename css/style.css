@@ -551,13 +551,7 @@ textarea {
 		padding-bottom: 20px;
 	}
 }
-@media (max-width:991px) {
-	.fixed-header-on .logo,
-	.fixed-header-on .site-name,
-	.fixed-header-on .site-slogan {
-		display: none;
-	}
-}
+
 
 /* Blocks/Widgets
 ----------------------------------------------------------------------------- */
