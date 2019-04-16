@@ -1,0 +1,36 @@
+<div class="modal-dialog modal-lg">
+	<div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+			<h4 class="modal-title" id="project-1-label">Project</h4>
+		</div>
+		<div class="modal-body">
+			<div class="row">
+				<div class="col-md-7">
+					<div class="space-sm"></div>
+					<h1>LandingShark</h1>
+					<a href="https://www.leadxo.com/">https://www.leadxo.com/</a>
+					<div class="space-sm"></div>
+						<p>內部 <span>Drag-n-Drop 快速建站產品</span>。<span>全端開發</span>。Html builder 是買來的半成品套件，但全站架構與流程皆自行設計開發。軟體需求是，<span>以低資源管理 host 大量網站，一鍵發佈，快速上傳更新，立即上線看見成果。</span></p>
+						<ul>
+							<li>利用 AWS S3 的 static website hosting，使 <span>host 大量網站也完全不占伺服器資源</span></li>
+							<li>builder提供給使用者的預設 design blocks 所需 assests (js, css, jpgs, fonts) 都已 <span>host 在 S3 上設 CORS 所有網站共用，不須重複上傳</span></li>
+							<li>僅修改更新網站時需要使用伺服器資源，而也<span>只需上傳html與使用者自訂內容，資料量小</span>，上傳速度極快</li>
+						</ul>
+						<p>使用者按下發佈：使用 builder 產生 html 後，與自訂資源打包成 zip 上傳至 AWS S3，<span>自動設定 CORS 與 static hosting，並即時修改 Cloudflare CNAME</span>，便可<span>立即</span>在 user.landingshark.com 看見成果。</p>
+				</div>
+				<div class="col-md-5">
+					<div class="space-sm"></div>
+					<img src="images/landingshark.jpg" alt="">
+				</div>
+			</div>
+			<div class="space-sm"></div>
+			<div class="row pl-10">
+				Keywords: <span>PHP/Laravel, Javascript, AWS S3 API (static website hosting, CORS), Cloudflare API</span>
+			</div>
+		</div>
+		<div class="modal-footer">
+			<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+		</div>
+	</div>
+</div>

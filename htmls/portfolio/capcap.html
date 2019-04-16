@@ -1,0 +1,30 @@
+<div class="modal-dialog modal-lg">
+	<div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+			<h4 class="modal-title" id="project-1-label">Project</h4>
+		</div>
+		<div class="modal-body">
+			<div class="row">
+				<div class="col-md-7">
+					<div class="space-sm"></div>
+					<h1>Capcap</h1>
+					<a href="http://capcap.tenten.co/captureSite?url=www.gitlab.com&no_queue" target="_blank">http://capcap.tenten.co/captureSite?url=www.gitlab.com&no_queue</a>
+					<div class="space-sm"></div>
+					<p>Tenten 內部產品，網站截圖服務。<span>三層多行程結構</span>。<span>DB/Queue 層</span>接到截圖請求先找 DB 是否 hit，若截圖夠新則回傳，否則加進 queue。node.js 使用 cluster，<span>Master 層，負責管理 workers 並從 queue 拉工作來分派</span>，監控 worker 是否 busy，若 worker 當掉則發訊息 kill worker 重開。<span>Workers 層</span>使用 xvfb (headless x server) + nightmare 真實 browser 實現截圖，截圖完成再回報 master。</p>
+				</div>
+				<div class="col-md-5">
+					<div class="space-sm"></div>
+					<img src="images/capcap.jpg" alt="">
+				</div>
+			</div>
+			<div class="space-sm"></div>
+			<div class="row pl-10">
+				Keywords: <span>Node.js, PHP/Laravel, cluster</span>
+			</div>
+		</div>
+		<div class="modal-footer">
+			<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+		</div>
+	</div>
+</div>
