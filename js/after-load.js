@@ -63,8 +63,9 @@ var countries = [
 		'IT',// 	Italy 24
 		'AU',// 	Australia 25
 		'IE',// 	Ireland 26
-		'VA',//     Vatican 27
-		'SG'//		Singapore 28
+		//'VA',//	Vatican 27 Non-existing region, don't add
+		//'SG',//	Singapore 28 Non-existing region, don't add
+		'KH'//      Cambodia 29
 ];
 
 var cities = [
@@ -149,7 +150,8 @@ var cities = [
 		{latLng: [-33.578822, 115.827978], name: 'Donnybrook'},
 		{latLng: [-33.327069, 115.639174], name: 'Bunbury'},
 		{latLng: [-38.261530, 175.114545], name: 'Waitomo'},
-		{latLng: [35.242225, 139.602687], name: 'Kamakura'}
+		{latLng: [35.242225, 139.602687], name: 'Kamakura'},
+		{latLng: [13.4125, 103.866667], name: 'Angkor Wat'}
 //{latLng: [], name: ''}
 ];
 
